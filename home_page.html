@@ -151,62 +151,22 @@
       </div>
 
       <div class="content">
-        <form id="search-form" class="form_search">
-          <!-- Input Artist -->
-          <input
-            type="text"
-            id="artist"
-            class="form_search__input"
-            placeholder="Artist"
-          />
+        <div class="content__view_collection">
           <div class="row">
-            <div class="col pe-2">
-              <!-- Select Genre -->
-              <select id="genre" class="form_search__select form-select">
-                <option value="" selected>Genre</option>
-                <option value="Popular">Popular</option>
-                <option value="Hiphop">Hiphop</option>
-                <option value="Rock">Rock</option>
-                <option value="Jazz">Jazz</option>
-                <option value="Classical">Classical</option>
-              </select>
+            <div class="col ps-4 pt-3">
+              <h2>My collection</h2>
+              <div class="text-black-50">99 records</div>
+              <div class="view_collection__button">
+                <button type="button" class="content__button btn btn-dark">
+                  View
+                </button>
+              </div>
             </div>
-            <div class="col ps-2">
-              <!-- Select Decade -->
-              <select id="decade" class="form_search__select form-select">
-                <option value="" selected>Decade</option>
-                <option value="1950">1950-60</option>
-                <option value="1960">1960-70</option>
-                <option value="1970">1970-80</option>
-                <option value="1980">1980-90</option>
-                <option value="1990">1990-00</option>
-                <option value="2000">2000-10</option>
-                <option value="2010">2010-20</option>
-                <option value="2020">2020-30</option>
-              </select>
+            <div class="col text-end">
+              <img src="./images/img_collection.png" class="img-fluid" />
             </div>
           </div>
-          <!-- Select Country -->
-          <select id="country" class="form_search__select form-select">
-            <option value="" selected>Country</option>
-            <option value="France">France</option>
-            <option value="Germany">Germany</option>
-            <option value="Italy">Italy</option>
-            <option value="Poland">Turkey</option>
-            <option value="Spain">Spain</option>
-            <option value="Ukraine">Ukraine</option>
-            <option value="UK">United Kingdom</option>
-            <option value="USA">USA</option>
-          </select>
-          <button
-            type="button"
-            id="search"
-            class="content__button btn btn-dark"
-          >
-            Search
-          </button>
-        </form>
-
+        </div>
         <div id="plates">
           <!-- Plates -->
         </div>

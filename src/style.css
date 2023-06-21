@@ -105,7 +105,31 @@ body {
     margin: auto;
 }
 
-.form_search__input {
+.content__view_collection {
+    background-color: #BCECFC;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.content__view_collection h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;  
+    color: #000000;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.view_collection__button{
+    width: 144px;
+    height: 38px;
+    position: relative;
+    bottom: -30%;
+    
+}
+
+/* .form_search__input {
     width: 100%;
     padding: 10px 12px;
     margin-bottom: 14px;
@@ -121,7 +145,7 @@ body {
     padding-bottom: 10px;
     padding-left: 12px;
     margin-bottom: 14px;
-}
+} */
 
 .content__button {
     background-color: #083644;

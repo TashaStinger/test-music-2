@@ -513,17 +513,18 @@ getNewSearchParams();
 if (firstUrl.searchParams.get("collection") === "show") {
     showPlateCards(collection);
 } else {
-    search();
+    // search();
+    showPlateCards(plates);
 }
 
-document.getElementById("go-back").addEventListener("click", () => {
-    history.back();
-    getPageNumber();
-    getNewSearchParams();
-    search();
-});
+// document.getElementById("go-back").addEventListener("click", () => {
+//     history.back();
+//     getPageNumber();
+//     getNewSearchParams();
+//     search();
+// });
 
-document.querySelector("#search").addEventListener("click", handleSearchClick);
+// document.querySelector("#search").addEventListener("click", handleSearchClick);
 document.querySelector("#collection").addEventListener("click", handleCollectionClick)
 
 
